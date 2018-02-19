@@ -1,0 +1,17 @@
+{
+  "message": {
+    "hello": "Bonjour"
+  },
+  "home": {
+    "slug": "",
+    "pagetitle": "Accueil"
+  },
+  "about": {
+    "slug": "a-propos",
+    "pagetitle": "A propos"
+  },
+  "works": {
+    "slug": "travaux",
+    "pagetitle": "Travaux"
+  }
+}

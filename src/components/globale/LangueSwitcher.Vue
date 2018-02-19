@@ -1,0 +1,29 @@
+<template>
+  <div class="lang">
+    <router-link :to="{path: '/fr/' + this.$t($route.name + '.slug', 'fr')}">FR</router-link>
+    <router-link :to="{path: '/en/' + this.$t($route.name + '.slug', 'en')}">EN</router-link>
+    <router-link :to="{path: '/de/' + this.$t($route.name + '.slug', 'de')}">DE</router-link>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'LangugeSwitcher',
+  methods: {
+    locale (val) {
+      this.$route.params.lang = val
+      this.$i18n.locale = val
+    }
+  },
+  watch: {
+    '$route' (to, from) {
+      console.log()
+    }
+  }
+}
+</script>
+
+<style>
+  .lang {float: right}
+  .lang .router-link-exact-active {font-weight: 900;}
+</style>

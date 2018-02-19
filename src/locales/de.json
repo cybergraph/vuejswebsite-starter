@@ -1,0 +1,17 @@
+{
+  "message": {
+    "hello": "Guten tag"
+  },
+  "home": {
+    "slug": "",
+    "pagetitle": "Guten tag"
+  },
+  "about": {
+    "slug": "about-slug-de",
+    "pagetitle": "pagetitle DE"
+  },
+  "works": {
+    "slug": "travaux-slug-de",
+    "pagetitle": "Travaux DE"
+  }
+}
