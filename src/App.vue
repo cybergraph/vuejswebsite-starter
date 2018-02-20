@@ -24,13 +24,12 @@ export default {
 </script>
 
 <style>
-  html, body{ margin: 0; }
-  #app { font-family: 'Avenir', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-  nav{ padding: 20px 30px; background: #FFF; color: #fff; height: 25px;}
-  nav a {color: #222; text-decoration: none;}
-  .container{ margin: 0 auto; padding: 3em 3em 3em 3em;}
-  .hello{background: #F7F7F7;}
-  h1{ font-size: 3em }
+  * { box-sizing: border-box; margin: 0; border: 0; padding: 0; list-style: none; }
+  html, body { height: 100%; }
+  body { padding: 32px; background: #fff; color: #000; font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; font-size: 16px; line-height: 1.5; }
+  a { color: #000; text-decoration: none; }
+  nav:after { content: ''; display: block; clear: both; }
+  h1 { margin-top: 64px; font-size: 64px; clear: both; }
   /* transition router-view */
   .fade-enter-active, .fade-leave-active { transition-property: opacity; transition-duration: .20s; }
   .fade-enter-active { transition-delay: .20s; }
