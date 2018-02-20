@@ -10,7 +10,7 @@ const router = new Router({
   mode: 'history',
   routes: [
     { path: '/', redirect: '/fr' },
-    { path: '/:lang/', name: 'home', component: Home },,
+    { path: '/:lang/', name: 'home', component: Home },
     { path: '/:lang/works', alias: ['/:lang/travaux', '/:lang/works-de'], name: 'works', component: Works },
     { path: '/:lang/about', alias: ['/:lang/a-propos', '/:lang/about-de'], name: 'about', component: About }
   ]
