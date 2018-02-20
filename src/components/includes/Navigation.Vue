@@ -1,8 +1,8 @@
 <template>
   <ul class="navigation">
-    <li><router-link :to="{path: '/' + this.$i18n.locale + '/' + this.$t('home.slug')}">{{ $t("home.title") }}</router-link></li>
-    <li><router-link :to="{path: '/' + this.$i18n.locale + '/' + this.$t('about.slug')}">{{ $t("about.title") }}</router-link></li>
-    <li><router-link :to="{path: '/' + this.$i18n.locale + '/' + this.$t('works.slug')}">{{ $t("works.title") }}</router-link></li>
+    <li><router-link :to="{ path: '/' + this.$i18n.locale }">{{ $t('home.title') }}</router-link></li>
+    <li><router-link :to="{ path: '/' + this.$i18n.locale + '/' + $t('about.slug') }">{{ $t('about.title') }}</router-link></li>
+    <li><router-link :to="{ path: '/' + this.$i18n.locale + '/' + $t('works.slug') }">{{ $t('works.title') }}</router-link></li>
   </ul>
 </template>
 

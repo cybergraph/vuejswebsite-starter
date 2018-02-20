@@ -10,5 +10,9 @@
   "about": {
     "slug": "about",
     "title": "About"
+  },
+  "page-404": {
+    "slug": "404",
+    "title": "404"
   }
 }
