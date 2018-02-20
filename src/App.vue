@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav>
-      <langugeswitcher></langugeswitcher>
+      <switcher></switcher>
       <navigation></navigation>
     </nav>
     <transition name="fade">
@@ -11,14 +11,14 @@
 </template>
 
 <script>
-import langugeswitcher from './components/globale/LangueSwitcher'
-import navigation from './components/globale/Menu'
+import Switcher from './components/includes/Switcher'
+import Navigation from './components/includes/Navigation'
 
 export default {
   name: 'App',
   components: {
-    langugeswitcher,
-    navigation
+    Switcher,
+    Navigation
   }
 }
 </script>
