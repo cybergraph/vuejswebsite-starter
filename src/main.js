@@ -11,9 +11,8 @@ Vue.config.productionTip = false
 
 const i18n = new VueI18n({
   messages: {
-    'de': require('./locales/de.json'),
-    'en': require('./locales/en.json'),
-    'fr': require('./locales/fr.json')
+    'fr': require('./locales/fr.json'),
+    'en': require('./locales/en.json')
   }
 })
 
