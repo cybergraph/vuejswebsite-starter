@@ -9,6 +9,10 @@
   },
   "about": {
     "slug": "a-propos",
-    "title": "A propos"
+    "title": "À propos"
+  },
+  "page-404": {
+    "slug": "404",
+    "title": "404"
   }
 }
