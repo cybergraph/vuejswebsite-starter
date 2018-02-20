@@ -1,17 +1,14 @@
 {
-  "message": {
-    "hello": "Guten tag"
-  },
   "home": {
     "slug": "",
-    "pagetitle": "Guten tag"
-  },
-  "about": {
-    "slug": "about-slug-de",
-    "pagetitle": "pagetitle DE"
+    "title": "Home DE"
   },
   "works": {
-    "slug": "travaux-slug-de",
-    "pagetitle": "Travaux DE"
+    "slug": "works-de",
+    "title": "Works DE"
+  },
+  "about": {
+    "slug": "about-de",
+    "title": "About DE"
   }
 }
