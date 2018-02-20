@@ -8,18 +8,7 @@
 
 <script>
 export default {
-  name: 'LangugeSwitcher',
-  methods: {
-    locale (val) {
-      this.$route.params.lang = val
-      this.$i18n.locale = val
-    }
-  },
-  watch: {
-    '$route' (to, from) {
-      console.log()
-    }
-  }
+  name: 'LangugeSwitcher'
 }
 </script>
 
