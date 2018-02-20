@@ -1,8 +1,7 @@
 <template>
   <ul class="switcher">
-    <li><router-link :to="{path: '/fr/' + this.$t($route.name + '.slug', 'fr')}">FR</router-link></li>
-    <li><router-link :to="{path: '/en/' + this.$t($route.name + '.slug', 'en')}">EN</router-link></li>
-    <li><router-link :to="{path: '/de/' + this.$t($route.name + '.slug', 'de')}">DE</router-link></li>
+    <li><router-link :to="{ path: '/' + 'fr' + '/' + $t($route.name + '.slug', 'fr') }">FR</router-link></li>
+    <li><router-link :to="{ path: '/' + 'en' + '/' + $t($route.name + '.slug', 'en') }">EN</router-link></li>
   </ul>
 </template>
 
