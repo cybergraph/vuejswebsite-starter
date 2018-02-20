@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <div class="navigation">
     <router-link :to="{path: '/' + this.$i18n.locale + '/' + this.$t('home.slug')}">{{ $t("home.title") }}</router-link>
     <router-link :to="{path: '/' + this.$i18n.locale + '/' + this.$t('about.slug')}">{{ $t("about.title") }}</router-link>
     <router-link :to="{path: '/' + this.$i18n.locale + '/' + this.$t('works.slug')}">{{ $t("works.title") }}</router-link>
@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'Menu'
+  name: 'Navigation'
 }
 </script>
 
