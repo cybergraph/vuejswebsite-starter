@@ -1,14 +1,32 @@
 <template>
   <ul class="navigation">
-    <li><router-link :to="{ path: '/' + this.$i18n.locale }">{{ $t('home.title') }}</router-link></li>
-    <li><router-link :to="{ path: '/' + this.$i18n.locale + '/' + $t('about.slug') }">{{ $t('about.title') }}</router-link></li>
-    <li><router-link :to="{ path: '/' + this.$i18n.locale + '/' + $t('works.slug') }">{{ $t('works.title') }}</router-link></li>
+    <li v-for="item in navigation" :key="item.id">
+      <router-link :to="{ path: '/' + $route.params.language + '/' + item.slug }">{{ item.title }}</router-link>
+    </li>
   </ul>
 </template>
 
 <script>
 export default {
-  name: 'Navigation'
+  name: 'Navigation',
+  data () {
+    return {
+      navigation: {}
+    }
+  },
+  mounted () {
+    this.load()
+  },
+  watch: {
+    '$route': function () {
+      this.load()
+    }
+  },
+  methods: {
+    load: function () {
+      this.navigation = require('../../locales/navigation-' + this.$route.params.language + '.json')
+    }
+  }
 }
 </script>
 

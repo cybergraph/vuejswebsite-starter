@@ -10,10 +10,12 @@ const router = new Router({
   mode: 'history',
   routes: [
     { path: '/', redirect: '/en' },
-    { path: '/:lang/', name: 'home', component: Page },
-    { path: '/:lang/works', alias: ['/:lang/travaux'], name: 'works', component: Page },
-    { path: '/:lang/about', alias: ['/:lang/a-propos'], name: 'about', component: Page },
-    { path: '/:lang/*', name: 'page-404', component: Error }
+    { path: '/fr', redirect: '/fr/accueil' },
+    { path: '/en', redirect: '/en/home' },
+    { path: '/:language/home', alias: ['/:language/accueil'], name: 'home', component: Page },
+    { path: '/:language/works', alias: ['/:language/travaux'], name: 'works', component: Page },
+    { path: '/:language/about', alias: ['/:language/a-propos'], name: 'about', component: Page },
+    { path: '/:language/*', name: 'error-404', component: Error }
   ]
 })
 

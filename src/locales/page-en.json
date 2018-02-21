@@ -1,0 +1,15 @@
+{
+  "home": {
+    "title": "Home",
+    "body": "Body",
+    "slug": "home"
+  },
+  "about": {
+    "title": "About",
+    "slug": "about"
+  },
+  "works": {
+    "title": "Works",
+    "slug": "works"
+  }
+}

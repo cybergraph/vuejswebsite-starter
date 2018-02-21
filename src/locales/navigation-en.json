@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title": "Home",
+    "slug": "home"
+  },
+  "about": {
+    "title": "About",
+    "slug": "about"
+  },
+  "works": {
+    "title": "Works",
+    "slug": "works"
+  }
+}

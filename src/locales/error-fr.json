@@ -1,0 +1,10 @@
+{
+  "error-403": {
+    "title": "403",
+    "body": "Accès refusé"
+  },
+  "error-404": {
+    "title": "404",
+    "body": "Page non trouvée"
+  }
+}

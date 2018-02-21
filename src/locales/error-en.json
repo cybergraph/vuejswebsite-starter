@@ -1,0 +1,10 @@
+{
+  "error-403": {
+    "title": "403",
+    "body": "Access denied"
+  },
+  "error-404": {
+    "title": "404",
+    "body": "Page not found"
+  }
+}
