@@ -1,7 +1,7 @@
 {
-  "name": "cybergraph",
+  "name": "startekit-vuejs",
   "version": "1.0.0",
-  "description": "site internet de cybergraph",
+  "description": "startekit vuejs + router + i18n",
   "author": "francois Cybergraph <francois@cybergraph.fr>",
   "private": true,
   "scripts": {
