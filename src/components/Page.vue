@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page">
     <h1>{{ $t($route.name + '.title') }}</h1>
   </div>
 </template>
