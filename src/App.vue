@@ -3,11 +3,11 @@
     <nav>
       <switcher></switcher>
       <transition name="navigation" mode="out-in">
-        <navigation :key="$t($route.params.lang + '.title')"></navigation>
+        <navigation :key="$route.params.lang"></navigation>
       </transition>
     </nav>
     <transition name="view" mode="out-in">
-      <router-view :key="$t($route.name + '.title')"></router-view>
+      <router-view :key="$route.path"></router-view>
     </transition>
   </div>
 </template>
