@@ -3,7 +3,7 @@
     <nav>
       <switcher></switcher>
       <transition name="navigation" mode="out-in">
-        <navigation :key="$route.params.lang"></navigation>
+        <navigation :key="$route.params.language"></navigation>
       </transition>
     </nav>
     <transition name="view" mode="out-in">
