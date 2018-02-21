@@ -1,6 +1,6 @@
-# cybergraph
+# startekit-vuejs
 
-> site internet de cybergraph
+> startekit vuejs + router + i18n
 
 ## Build Setup
 
